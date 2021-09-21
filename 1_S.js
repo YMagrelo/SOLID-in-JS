@@ -11,6 +11,34 @@ class News {
         this.text = text;
         this.modified = true
     }
+
+
+    //shall not be here
+    // html() {
+    //     return `
+    //       <div class="news">
+    //         <h1>${this.news.title}</h1>
+    //         <p>${this.news.text}</p>
+    //       </div>
+    //     `
+    // }
+    //
+    // json() {
+    //     return JSON.stringify({
+    //         title: this.news.title,
+    //         text: this.news.text,
+    //         modified: this.news.modified
+    //     }, null, 2)
+    // }
+    //
+    // xml() {
+    //     return `
+    //       <news>
+    //         <title>${this.news.title}</title>
+    //         <text>${this.news.text}</text>
+    //       </news>
+    //     `
+    // }
 }
 
 class NewsPrinter {
